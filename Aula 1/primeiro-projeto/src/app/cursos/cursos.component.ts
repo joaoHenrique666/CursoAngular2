@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CursosComponent implements OnInit {
 
-  constructor() { }
+  listaDePessoas : String;
+  pessoas : String[] = ['Joao', 'lucas','gabriel','pedro'];
+
+  constructor() { 
+    this.listaDePessoas = 'https://facebook.com';
+  }
 
   ngOnInit() {
   }
